@@ -251,8 +251,8 @@
 
     // Image sources
     const imgSrc = heroImg.getAttribute('data-excerpt-src') || heroImg.getAttribute('src');
-    const leftSrc = left.getAttribute('data-src') || 'assets/hero-bg-alt-1.jpeg';
-    const rightSrc = right.getAttribute('data-src') || 'assets/hero-bg-alt-2.jpeg';
+    const leftSrc = left.getAttribute('data-src') || 'https://siteamrollouts.github.io/team-homepage/assets/hero-bg-alt-1.jpeg';
+    const rightSrc = right.getAttribute('data-src') || 'https://siteamrollouts.github.io/team-homepage/assets/hero-bg-alt-2.jpeg';
 
     // Flanks: hidden, set BG to cover
     gsap.set(left, { x: 0, rotation: 0, opacity: 0 });
